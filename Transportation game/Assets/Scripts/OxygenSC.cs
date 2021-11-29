@@ -9,8 +9,10 @@ public class OxygenSC : MonoBehaviour
     public int Oxygen = 100;
     public float decreaserate = 0.1f;
     float nextdecrease = 0f;
+
     public int MaxOx = 100;
     public int MinOx = 0;
+
     public Slider OXbar;
     public bool missionFailed;
 
@@ -27,6 +29,7 @@ public class OxygenSC : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
 
         if (Oxygen >= MaxOx)
         {

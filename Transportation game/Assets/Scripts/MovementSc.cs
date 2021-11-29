@@ -28,30 +28,6 @@ public class MovementSc : MonoBehaviour
         Vector3 playermovement = new Vector3(Hor, 0f, Ver) * speed * Time.deltaTime;
         transform.Translate(playermovement, Space.Self);
 
-        JumpSC jumpInt = this.gameObject.GetComponent<JumpSC>();
-
-        if (Time.time > timePlusCooldown)
-        {
-
-            canPress = true;
-
-            if (Input.GetKey(KeyCode.Space))
-            {
-                jumpInt.jump -= 1;
-                canPress = false;
-                rb.AddForce(0, thrust, 0, ForceMode.Impulse);
-                timePlusCooldown = Time.time + cooldown;
-                //Debug.Log("Can't press");
-
-            }
-
-        }
-
-        if (canPress == true)
-        {
-            jumpInt.jump += 1;
-        }
-
         if(Input.GetKey(KeyCode.Escape))
         {
             pause.SetActive(true);

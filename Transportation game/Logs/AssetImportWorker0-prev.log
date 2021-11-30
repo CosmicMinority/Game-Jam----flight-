@@ -1,0 +1,515 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16337 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+E:\Unity Editors\Unity 2020.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/danai/Downloads/Game-Jam----flight-/Transportation game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53891
+Successfully changed project path to: C:/Users/danai/Downloads/Game-Jam----flight-/Transportation game
+C:/Users/danai/Downloads/Game-Jam----flight-/Transportation game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 644.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path E:/Unity Editors/Unity 2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/danai/Downloads/Game-Jam----flight-/Transportation game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) RX 480 Graphics (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   30.0.13025.5005
+Initialize mono
+Mono path[0] = 'E:/Unity Editors/Unity 2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity Editors/Unity 2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Unity Editors/Unity 2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity Editors/Unity 2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004138 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 301.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.591 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6591ms)
+		BeginReloadAssembly (663ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1761ms)
+			LoadAssemblies (641ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (675ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (735ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (302ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.021373 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 126.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.766 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2768ms)
+		BeginReloadAssembly (373ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (2282ms)
+			LoadAssemblies (290ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (683ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (931ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (127ms)
+				BeforeProcessingInitializeOnLoad (193ms)
+				ProcessInitializeOnLoadAttributes (580ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.9 MB.
+System memory in use after: 131.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3319.
+Total: 6.815100 ms (FindLiveObjects: 0.444500 ms CreateObjectMapping: 0.210800 ms MarkObjects: 5.993000 ms  DeleteObjects: 0.163600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/WORK-HERE.unity
+  artifactKey: Guid(5072bd360694172498bbf78a8829e980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/WORK-HERE.unity using Guid(5072bd360694172498bbf78a8829e980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87a0674d064f9c52de111c51a7b5a1d') in 0.043600 seconds 
+  Import took 0.053097 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.038906 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.530 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7532ms)
+		BeginReloadAssembly (1198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (343ms)
+		EndReloadAssembly (5833ms)
+			LoadAssemblies (840ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2060ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (622ms)
+			SetupLoadedEditorAssemblies (1626ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (987ms)
+				ProcessInitializeOnLoadAttributes (592ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.3 MB.
+System memory in use after: 123.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3321.
+Total: 19.785300 ms (FindLiveObjects: 1.076800 ms CreateObjectMapping: 0.265000 ms MarkObjects: 18.393600 ms  DeleteObjects: 0.046700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.905639 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4906ms)
+		BeginReloadAssembly (993ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (129ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (146ms)
+		EndReloadAssembly (3675ms)
+			LoadAssemblies (825ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1741ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (224ms)
+			SetupLoadedEditorAssemblies (872ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (325ms)
+				ProcessInitializeOnLoadAttributes (511ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(536cafbe22f184d7c8c7bb8f8e64da68) path("Packages/com.unity.polybrush/Editor/Utility/ReflectionUtility.cs") state(2)
+Script is not up to date after domain reload: guid(1f7656c939dcdf644b9bd56faaaad8f0) path("Packages/com.unity.polybrush/Runtime/Scripts/Type/PolyEdge.cs") state(2)
+Script is not up to date after domain reload: guid(eb84e94bb099a054c800b2926705afae) path("Packages/com.unity.polybrush/Editor/Interface/AttributeLayoutJsonEditor.cs") state(2)
+Script is not up to date after domain reload: guid(7eaaf47e9fd7942db87f64edd92b267c) path("Packages/com.unity.polybrush/Editor/Utility/Debug.cs") state(2)
+Script is not up to date after domain reload: guid(d68c9275a313bb94f9a2515d44a8c514) path("Packages/com.unity.polybrush/Runtime/Enum/ComponentIndex.cs") state(2)
+Script is not up to date after domain reload: guid(601a3898b712c324b898a4e30c310449) path("Packages/com.unity.polybrush/Tests/Editor/EnumTest.cs") state(2)
+Script is not up to date after domain reload: guid(acd81b6a6e8325346b5ebcc09e91f1d4) path("Packages/com.unity.polybrush/Editor/Interface/PolybrushMeshEditor.cs") state(2)
+Script is not up to date after domain reload: guid(d3c815396f3a64c2d925a2100e08e093) path("Packages/com.unity.settings-manager/Editor/Settings.cs") state(2)
+Script is not up to date after domain reload: guid(8571195efb9d08a479145aeabd9fa81a) path("Packages/com.unity.polybrush/Runtime/Enum/SelectionRenderState.cs") state(2)
+Script is not up to date after domain reload: guid(58f44d5a31f3e6b49b42813f92946efc) path("Packages/com.unity.polybrush/Runtime/Enum/MirrorCoordinateSpace.cs") state(2)
+Script is not up to date after domain reload: guid(74ea96aa4300d88498d7598583c29c44) path("Packages/com.unity.polybrush/Editor/Utility/PolyGUI.cs") state(2)
+Script is not up to date after domain reload: guid(089cf634c311c354fbb1fc91db2c7930) path("Packages/com.unity.polybrush/Editor/Classes/ShaderMetaDataUtility.cs") state(2)
+Script is not up to date after domain reload: guid(a72ae253fa225446fa7a8b0e844092fb) path("Packages/com.unity.polybrush/Editor/Utility/IconUtility.cs") state(2)
+Script is not up to date after domain reload: guid(22b7be0523c66864f91989684616bc2c) path("Packages/com.unity.polybrush/Editor/Classes/MirrorSettingsEditor.cs") state(2)
+Script is not up to date after domain reload: guid(b4946629a817a5f4fab02a5841dbaa3d) path("Packages/com.unity.polybrush/Tests/Editor/BuildTest.cs") state(2)
+Script is not up to date after domain reload: guid(dd3e3a1aacc486547b5502fe6002d926) path("Packages/com.unity.polybrush/Tests/Editor/UtilTests.cs") state(2)
+Script is not up to date after domain reload: guid(0dc75b34a006d47f48c004031e6ef14d) path("Packages/com.unity.settings-manager/Editor/UserSettingsProvider.cs") state(2)
+Script is not up to date after domain reload: guid(8e2e054ed623847d29efb1262605e8ef) path("Packages/com.unity.settings-manager/Editor/PackageSettingsRepository.cs") state(2)
+Script is not up to date after domain reload: guid(226e09faaf7bf9249abde5d6b7586344) path("Packages/com.unity.polybrush/Runtime/Enum/PlacementDirection.cs") state(2)
+Script is not up to date after domain reload: guid(23fa698560b688845bf08bafe6dc1b28) path("Packages/com.unity.polybrush/Runtime/Scripts/MonoBehaviour/z_AdditionalVertexStreams.cs") state(2)
+Script is not up to date after domain reload: guid(092164c362580204aaa1db3ce43fcde9) path("Packages/com.unity.polybrush/Runtime/Scripts/Type/IHasDefault.cs") state(2)
+Script is not up to date after domain reload: guid(c331da19ccd7f694fba1ce64d800a7f5) path("Packages/com.unity.polybrush/Runtime/Scripts/Type/MirrorSettings.cs") state(2)
+Script is not up to date after domain reload: guid(faf7db05d259ffb47b2b158a2e462d2a) path("Packages/com.unity.polybrush/Editor/Classes/ColorPalette.cs") state(2)
+Script is not up to date after domain reload: guid(225899f8243b4bb4b8a6c1281bd98b73) path("Packages/com.unity.polybrush/Runtime/Scripts/Type/ICustomSettings.cs") state(2)
+Script is not up to date after domain reload: guid(7ea67431821494cfca380c0e07258751) path("Packages/com.unity.settings-manager/Editor/Attributes.cs") state(2)
+Script is not up to date after domain reload: guid(dc38003c0e0db6641a4762d4f392de52) path("Packages/com.unity.polybrush/Editor/Classes/PrefabPalette.cs") state(2)
+Script is not up to date after domain reload: guid(e4c5d778300bf074c818ef8ea6e3062b) path("Packages/com.unity.polybrush/Editor/Interface/PolybrushEditor.cs") state(2)
+Script is not up to date after domain reload: guid(8deb0eeb105fb624599fd6684cf57659) path("Packages/com.unity.polybrush/Runtime/Scripts/Utility/MeshUtility.cs") state(2)
+Script is not up to date after domain reload: guid(75c4200b1e9e53d408f984f4eba33645) path("Packages/com.unity.polybrush/Editor/Utility/PrefUtility.cs") state(2)
+Script is not up to date after domain reload: guid(26315a4f5206433408fe3ed9e1f0af7c) path("Packages/com.unity.polybrush/Editor/Interface/MenuItems.cs") state(2)
+Script is not up to date after domain reload: guid(df0a89f5a90a7074da09d000b1cab8c9) path("Packages/com.unity.polybrush/Editor/Interface/ZoomOverrideEditor.cs") state(2)
+Script is not up to date after domain reload: guid(28a002c53bdb2204f8ff3786a5af1b27) path("Packages/com.unity.polybrush/Editor/Brush Modes/BrushModeMesh.cs") state(2)
+Script is not up to date after domain reload: guid(b220878ed9d9d584cb091fcb07d21e0a) path("Packages/com.unity.polybrush/Editor/Classes/PrefabAndSettings.cs") state(2)
+Script is not up to date after domain reload: guid(72d07728a3944a4438c91b73e4c18187) path("Packages/com.unity.polybrush/Runtime/Enum/BrushMirror.cs") state(2)
+Script is not up to date after domain reload: guid(4bd5e5ddd242bd64581fb5ed9c0e0507) path("Packages/com.unity.polybrush/Runtime/Scripts/MonoBehaviour/PolybrushMesh.cs") state(2)
+Script is not up to date after domain reload: guid(1c372724eef894588991d39968d1bb13) path("Packages/com.unity.polybrush/Editor/Utility/IconImporter.cs") state(2)
+Script is not up to date after domain reload: guid(fad270b35a5a65b4dacd1a32b2287147) path("Packages/com.unity.polybrush/Runtime/Scripts/MonoBehaviour/OverlayRenderer.cs") state(2)
+Script is not up to date after domain reload: guid(23c0c596c336a404983b526a10ecf007) path("Packages/com.unity.polybrush/Editor/Brush Modes/BrushModeSculpt.cs") state(2)
+Script is not up to date after domain reload: guid(ef7af1d5fe5c313488bb9b9ebc72fd2c) path("Packages/com.unity.polybrush/Editor/Brush Modes/BrushMode.cs") state(2)
+Script is not up to date after domain reload: guid(71cee8a266b19f940b9bded52d38b2b2) path("Packages/com.unity.polybrush/Editor/Utility/Handles.cs") state(2)
+Script is not up to date after domain reload: guid(018f1adb8258a4133b73805294498947) path("Packages/com.unity.settings-manager/Tests/Editor/MultipleProjectSettings.cs") state(2)
+Script is not up to date after domain reload: guid(f772fa0751cd24f40a634c8c34f805e1) path("Packages/com.unity.polybrush/Editor/Interface/BrushSettingsEditor.cs") state(2)
+Script is not up to date after domain reload: guid(c3ec6d10638d94feaa03c223b6fee2cc) path("Packages/com.unity.settings-manager/Editor/UserSetting.cs") state(2)
+Script is not up to date after domain reload: guid(9ab0091be7e3684459b6e2c3f3538e77) path("Packages/com.unity.polybrush/Editor/Utility/EditorUtility.cs") state(2)
+Script is not up to date after domain reload: guid(7ff6a9fc5e261424ba044c61e99075a7) path("Packages/com.unity.polybrush/Editor/Classes/SplatSet.cs") state(2)
+Script is not up to date after domain reload: guid(26e61be5523a42ab8e748f7aa73bdcca) path("Packages/com.unity.polybrush/Editor/Interface/HierarchyChanged.cs") state(2)
+Script is not up to date after domain reload: guid(4bfaf05b82b548fa9c557cf24ebeed26) path("Packages/com.unity.polybrush/Editor/Classes/ConfigurableWindow.cs") state(2)
+Script is not up to date after domain reload: guid(f426d132428881b4f98ed6b221406e87) path("Packages/com.unity.polybrush/Tests/Editor/MathTest.cs") state(2)
+Script is not up to date after domain reload: guid(65e1b7704d24e447cae0ab36b75b93c2) path("Packages/com.unity.polybrush/Editor/ProBuilderIntegration/ProBuilderBridge.cs") state(2)
+Script is not up to date after domain reload: guid(d65c31054387b420dba887644b99aa7b) path("Packages/com.unity.polybrush/Editor/Utility/PreviewDatabase.cs") state(2)
+Script is not up to date after domain reload: guid(4b39abcb1e55a4b42b0fd7f88d8db1dd) path("Packages/com.unity.polybrush/Editor/Classes/PolybrushSettingsProvider.cs") state(2)
+Script is not up to date after domain reload: guid(0972aad7df604f34e94800624a8cb273) path("Packages/com.unity.polybrush/Editor/Classes/LoadoutInfo.cs") state(2)
+Script is not up to date after domain reload: guid(224c50003afba9b448a8daf1a6bd0f55) path("Packages/com.unity.polybrush/Editor/Utility/SceneUtility.cs") state(2)
+Script is not up to date after domain reload: guid(34d26c3c30882f845805867734556668) path("Packages/com.unity.polybrush/Tests/Editor/PlaymodeTest.cs") state(2)
+Script is not up to date after domain reload: guid(3a5ad48474ac519409fbf51330909c36) path("Packages/com.unity.polybrush/Editor/Classes/Pref.cs") state(2)
+Script is not up to date after domain reload: guid(4727a6af1491ae341a2bae69afbe0aa3) path("Packages/com.unity.polybrush/Editor/Classes/PolyAsset.cs") state(2)
+Script is not up to date after domain reload: guid(5d099a4e89428b34cb4b63a7c45d01b9) path("Packages/com.unity.polybrush/Editor/Brush Modes/BrushModeSmooth.cs") state(2)
+Script is not up to date after domain reload: guid(6cdf61601b393834cb686410ff59944e) path("Packages/com.unity.polybrush/Runtime/Scripts/Type/IValid.cs") state(2)
+Script is not up to date after domain reload: guid(67c0fca06520e4f78923163f9541ba6c) path("Packages/com.unity.settings-manager/Editor/SettingsDictionary.cs") state(2)
+Script is not up to date after domain reload: guid(0cc64ab078afc844389ec9f7e68c95d8) path("Packages/com.unity.polybrush/Runtime/Scripts/Type/GradientSerializer.cs") state(2)
+Script is not up to date after domain reload: guid(17e06d3605d82ad408e50c561837d9f4) path("Packages/com.unity.polybrush/Editor/Brush Modes/BrushModeRaiseLower.cs") state(2)
+Script is not up to date after domain reload: guid(00edab3b4c53a4ac792719f0ca7cec99) path("Packages/com.unity.polybrush/Runtime/Scripts/Type/PolyMesh.cs") state(2)
+Script is not up to date after domain reload: guid(74dab3151fd644d4185f95c2122838ea) path("Packages/com.unity.polybrush/Editor/Interface/PreferenceDictionaryEditor.cs") state(2)
+Script is not up to date after domain reload: guid(dac442481774de04dac3ac346b91423b) path("Packages/com.unity.polybrush/Editor/Utility/MeshPreview.cs") state(2)
+Script is not up to date after domain reload: guid(7fddbcc04048705489f910e34cb65752) path("Packages/com.unity.polybrush/Runtime/Enum/MeshChannel.cs") state(2)
+Script is not up to date after domain reload: guid(fcbf602d12ddf214b96d6e77672c0ccc) path("Packages/com.unity.polybrush/Tests/Editor/UnitTestGenericType.cs") state(2)
+Script is not up to date after domain reload: guid(46a79edf648201540b38d44a61ac983f) path("Packages/com.unity.polybrush/Editor/Classes/BrushTarget.cs") state(2)
+Script is not up to date after domain reload: guid(6965211c873de4048aa9043e5e287c73) path("Packages/com.unity.settings-manager/Editor/UserSettingsRepository.cs") state(2)
+Script is not up to date after domain reload: guid(8707cf6fb25b1438b9a0f476f93a76fe) path("Packages/com.unity.settings-manager/Editor/ISettingsRepository.cs") state(2)
+Script is not up to date after domain reload: guid(3769f24b0bb722d47a1699ec23a5eafa) path("Packages/com.unity.polybrush/Runtime/Scripts/Type/ColorMask.cs") state(2)
+Script is not up to date after domain reload: guid(9f3f801d13385744b83defff6e68ec2e) path("Packages/com.unity.polybrush/Editor/Interface/PrefabLoadoutEditor.cs") state(2)
+Script is not up to date after domain reload: guid(e23e1b8d3aff1d84988122fca0d5ecbe) path("Packages/com.unity.polybrush/Editor/Utility/ShaderUtil.cs") state(2)
+Script is not up to date after domain reload: guid(85de0291ae53c9c469e332c25acd46a4) path("Packages/com.unity.polybrush/Runtime/Scripts/Type/SubMesh.cs") state(2)
+Script is not up to date after domain reload: guid(28e5a241ebc543a488364fb7b011cd67) path("Packages/com.unity.polybrush/Editor/Classes/SplatWeight.cs") state(2)
+Script is not up to date after domain reload: guid(a3ce9a2ce9b68a2449fa03ae830d0fbc) path("Packages/com.unity.polybrush/Editor/Utility/PostProcessPrefabs.cs") state(2)
+Script is not up to date after domain reload: guid(0c229c73eab51b9478029375e5ca314a) path("Packages/com.unity.polybrush/Editor/Classes/BrushSettings.cs") state(2)
+Script is not up to date after domain reload: guid(9e6738bc299d434468f6f3385bb5e2a0) path("Packages/com.unity.polybrush/Tests/Editor/IconUtilityTest.cs") state(2)
+Script is not up to date after domain reload: guid(58e885a4808b3ed4b884ae57bc1a2d26) path("Packages/com.unity.polybrush/Editor/Brush Modes/BrushModeTexture.cs") state(2)
+Script is not up to date after domain reload: guid(f425014c97249344099c3f447082d4bc) path("Packages/com.unity.polybrush/Editor/Brush Modes/BrushModePaint.cs") state(2)
+Script is not up to date after domain reload: guid(d5e03892f9276bb47893e603995584e3) path("Packages/com.unity.polybrush/Editor/Classes/AttributeLayout.cs") state(2)
+Script is not up to date after domain reload: guid(75480f479777e4e4c9e92842d2b32a19) path("Packages/com.unity.polybrush/Runtime/Scripts/Utility/BoundsUtility.cs") state(2)
+Script is not up to date after domain reload: guid(6cf185b3af5efde438e6f711453c2798) path("Packages/com.unity.polybrush/Editor/Utility/BakeAdditionalVertexStreams.cs") state(2)
+Script is not up to date after domain reload: guid(f5ee19724a0020345861aee152efba68) path("Packages/com.unity.polybrush/Editor/Interface/PrefabPaletteEditor.cs") state(2)
+Script is not up to date after domain reload: guid(ee6836a7217c9e14498d0e393a704eb8) path("Packages/com.unity.polybrush/Editor/AssemblyInfo.cs") state(2)
+Script is not up to date after domain reload: guid(aa901497429fdd4499e0a695e5436119) path("Packages/com.unity.polybrush/Runtime/Enum/Culling.cs") state(2)
+Script is not up to date after domain reload: guid(2e9d8bd2456d3b9428d454b4229e82ec) path("Packages/com.unity.polybrush/Editor/Classes/RaycastHit.cs") state(2)
+Script is not up to date after domain reload: guid(7afd235f90a2cb943996cef04118c5fa) path("Packages/com.unity.polybrush/Editor/Brush Modes/BrushModePrefab.cs") state(2)
+Script is not up to date after domain reload: guid(95f89df84e6bdb54c9bf979be6bd574d) path("Packages/com.unity.polybrush/Runtime/Enum/PaintMode.cs") state(2)
+Script is not up to date after domain reload: guid(21b133d648d79e64683b26f62d8dc8f0) path("Packages/com.unity.polybrush/Editor/Classes/ProBuilderInterface.cs") state(2)
+Script is not up to date after domain reload: guid(c24f57f3f3c554e51ab791526e33e337) path("Packages/com.unity.settings-manager/Editor/UserSettings.cs") state(2)
+Script is not up to date after domain reload: guid(522688de3dfcdab4ca9f4bc525cc5a4f) path("Packages/com.unity.polybrush/Runtime/Scripts/Type/CommonEdge.cs") state(2)
+Script is not up to date after domain reload: guid(7a834bd7e38e41c4082c71253dcdc6fc) path("Packages/com.unity.polybrush/Editor/Classes/PolybrushSettings.cs") state(2)
+Script is not up to date after domain reload: guid(2d65bb50aabd144ed9c1a4c2bc6d072e) path("Packages/com.unity.settings-manager/Editor/ValueWrapper.cs") state(2)
+Script is not up to date after domain reload: guid(11f5334676f33f34cb9994fb89fb9647) path("Packages/com.unity.polybrush/Runtime/Scripts/Utility/Math.cs") state(2)
+Script is not up to date after domain reload: guid(f84a508a501bb467b9db9874726160f3) path("Packages/com.unity.polybrush/Editor/Utility/PolyGUILayout.cs") state(2)
+Script is not up to date after domain reload: guid(58393061cd131a143be259c1074c1ade) path("Packages/com.unity.polybrush/Tests/Editor/ColorPaletteTest.cs") state(2)
+Script is not up to date after domain reload: guid(e935b7b03dcbdee43aa1b30062cf383e) path("Packages/com.unity.polybrush/Runtime/Scripts/MonoBehaviour/ZoomOverride.cs") state(2)
+Script is not up to date after domain reload: guid(6cfdebd44cc775543b4c91a25ca46ad8) path("Packages/com.unity.polybrush/Editor/Interface/SplatWeightEditor.cs") state(2)
+Script is not up to date after domain reload: guid(c087ebdc897f66241a5b99aa60a072b7) path("Packages/com.unity.polybrush/Runtime/Enum/ModelSource.cs") state(2)
+Script is not up to date after domain reload: guid(0a6ab434c57af9244b078eb6f3866347) path("Packages/com.unity.polybrush/Runtime/AssemblyInfo.cs") state(2)
+Script is not up to date after domain reload: guid(8a2c02f35481ddc459443503ee3cd12a) path("Packages/com.unity.polybrush/Tests/Editor/TestsUtility.cs") state(2)
+Script is not up to date after domain reload: guid(46cba52cfb41164469d89dece962f715) path("Packages/com.unity.polybrush/Runtime/Enum/Direction.cs") state(2)
+Script is not up to date after domain reload: guid(563f3ba19545a6c4e8b001e509671961) path("Packages/com.unity.polybrush/Tests/Editor/ShaderUtilityTest.cs") state(2)
+Script is not up to date after domain reload: guid(50e399a268a1e9548900df83e979df6d) path("Packages/com.unity.polybrush/Tests/Editor/PolyEditorUtilityTest.cs") state(2)
+Script is not up to date after domain reload: guid(a8302f6a0a5f20740a575a0144b2cecd) path("Packages/com.unity.polybrush/Editor/Enum/BrushTool.cs") state(2)
+Script is not up to date after domain reload: guid(35fc1a6584efa41f38b85fc9dd9d264e) path("Packages/com.unity.polybrush/Editor/Classes/PreferenceDictionary.cs") state(2)
+Script is not up to date after domain reload: guid(bca83cfb0705ed24f9cc4967c5e3f895) path("Packages/com.unity.polybrush/Runtime/Scripts/Utility/Util.cs") state(2)
+Script is not up to date after domain reload: guid(85b2614118f04504382d6189db681932) path("Packages/com.unity.polybrush/Runtime/Scripts/Type/RndVec3.cs") state(2)
+Script is not up to date after domain reload: guid(767365db77168f744af8685807ad7f4b) path("Packages/com.unity.settings-manager/Tests/Editor/SettingsTests.cs") state(2)
+Script is not up to date after domain reload: guid(223e1a5330ab8468782152a65e857f94) path("Packages/com.unity.settings-manager/Editor/SettingsGUILayout.cs") state(2)
+Script is not up to date after domain reload: guid(7d469acee0fe93841a4ef5f2994d4d5f) path("Packages/com.unity.polybrush/Editor/Interface/ColorPaletteEditor.cs") state(2)
+Script is not up to date after domain reload: guid(ca19ebd74874e5e4ab3012be8c03d61e) path("Packages/com.unity.polybrush/Tests/Editor/PolySceneUtilityTest.cs") state(2)
+Script is not up to date after domain reload: guid(f25b1546a7ccf4b2e985682cc7a9af59) path("Packages/com.unity.polybrush/Tests/Editor/ProBuilderIntegration/ProBuilderTests.cs") state(2)
+Script is not up to date after domain reload: guid(5e4f91c03ccd126459fa1e1c72a15ee3) path("Packages/com.unity.polybrush/Editor/Classes/EditableObject.cs") state(2)
+Script is not up to date after domain reload: guid(aa18d303a2a1e614b98bd949c6ade5ff) path("Packages/com.unity.polybrush/Tests/Editor/PolyGUITest.cs") state(2)
+Refreshing native plugins compatible for Editor in 3.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.3 MB.
+System memory in use after: 123.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3323.
+Total: 8.078100 ms (FindLiveObjects: 0.648000 ms CreateObjectMapping: 0.235500 ms MarkObjects: 7.150600 ms  DeleteObjects: 0.041500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009549 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.630 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1630ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1348ms)
+			LoadAssemblies (178ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (454ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2884 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.1 MB.
+System memory in use after: 127.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3440.
+Total: 5.193500 ms (FindLiveObjects: 0.306500 ms CreateObjectMapping: 0.139400 ms MarkObjects: 4.540000 ms  DeleteObjects: 0.205300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2559.278152 seconds.
+  path: Assets/Samples/Polybrush
+  artifactKey: Guid(1366b5a64d97ab5409a408fb5be68fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Polybrush using Guid(1366b5a64d97ab5409a408fb5be68fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb8cd50a221441e5f6d9ba4f3c8b03b') in 2.978180 seconds 
+  Import took 11.382094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.972910 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(30b3182eb54a8ee4196d619b31e556e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(30b3182eb54a8ee4196d619b31e556e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15f00af99c6c0725e29ae01400b5c57') in 1.737541 seconds 
+  Import took 1.758944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.518224 seconds.
+  path: Assets/Lowpoly Style/Free Rocks and Plants/Prefabs/Reed.prefab
+  artifactKey: Guid(8e29574f61c003a45a3cc9a571582336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Free Rocks and Plants/Prefabs/Reed.prefab using Guid(8e29574f61c003a45a3cc9a571582336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3accab8adba21f47847a680baba2f50') in 50.591674 seconds 
+  Import took 53.928770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Lowpoly Style/Free Rocks and Plants/Prefabs/Reed.prefab
+  artifactKey: Guid(8e29574f61c003a45a3cc9a571582336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Free Rocks and Plants/Prefabs/Reed.prefab using Guid(8e29574f61c003a45a3cc9a571582336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5e3e7afb1594679c84e18dee37621c') in 0.090208 seconds 
+  Import took 0.104418 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007095 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.157 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2158ms)
+		BeginReloadAssembly (285ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1768ms)
+			LoadAssemblies (226ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (614ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (597ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (382ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2884 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.4 MB.
+System memory in use after: 132.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3487.
+Total: 8.999200 ms (FindLiveObjects: 0.640100 ms CreateObjectMapping: 0.462500 ms MarkObjects: 7.585200 ms  DeleteObjects: 0.306900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

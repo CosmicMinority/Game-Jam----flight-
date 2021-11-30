@@ -15,6 +15,6 @@ public class gyrocontrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(Input.acceleration.x *number, 0, Input.acceleration.z* number);
+        transform.Rotate(Input.acceleration.x *number, 0, Input.acceleration.y* number);
     }
 }

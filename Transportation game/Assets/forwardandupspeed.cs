@@ -27,7 +27,7 @@ public class forwardandupspeed : MonoBehaviour
     void Update()
     {
 
-
+       
 
         Quaternion Devicerotation = DeviceRotation.Get();
 

@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class camerafolow : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
+    public float forwarspeed;
+    public float upspeed;
 
     // Update is called once per frame
     void Update()
     {
+        Vector3 MoveCam = transform.position - transform.forward * forwarspeed + transform.up * upspeed;
+        Camera.main.transform.position = MoveCam;
+
+
         
     }
 }

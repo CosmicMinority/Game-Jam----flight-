@@ -5,6 +5,7 @@ using UnityEngine;
 public static class DeviceRotation
 {
     public static bool gyrofound = false;
+  
     public static float intervals = 0.0167f;
     public static bool HasGyro
     {
@@ -38,7 +39,7 @@ public static class DeviceRotation
 
     public static Quaternion ReadGyroscopeRotaion()
     {
-        return new Quaternion(0.5f, -0.5f, -0.5f, 0.5f) * Input.gyro.attitude * new Quaternion(0f, 0f,- 1f, 0f); 
+        return new Quaternion(0.5f, -0.5f, 0.5f, 0.5f) * Input.gyro.attitude * new Quaternion(0f, 0, -4f *500, 0f); 
     }
 
 }

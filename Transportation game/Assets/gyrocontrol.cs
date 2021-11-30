@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class gyrocontrol : MonoBehaviour
 {
+    public float number;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,6 @@ public class gyrocontrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Rotate(Input.acceleration.x *number, 0, Input.acceleration.z* number);
     }
 }

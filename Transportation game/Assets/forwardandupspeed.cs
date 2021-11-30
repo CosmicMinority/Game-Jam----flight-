@@ -10,12 +10,12 @@ public class forwardandupspeed : MonoBehaviour
 
     public Rigidbody rb;
 
-    public Camera cam;
+    public GameObject ship;
+
+ 
 
 
-    public float forwarspeed;
-    public float upspeed;
-
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -26,16 +26,19 @@ public class forwardandupspeed : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 MoveCam = transform.position - transform.forward * forwarspeed + Vector3.up * upspeed;
-        cam.transform.position = MoveCam;
-        cam.transform.LookAt(rb.transform.position);
+
+
 
         Quaternion Devicerotation = DeviceRotation.Get();
 
-        transform.rotation = Devicerotation;
+        transform.rotation  = Devicerotation;
 
         rb.AddForce(transform.forward * speed, ForceMode.Acceleration);
-        rb.AddForce(transform.up * lift, ForceMode.Acceleration);
+
+
+        rb.AddForce(transform.up * lift , ForceMode.Acceleration);
+
+       
 
         rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
         

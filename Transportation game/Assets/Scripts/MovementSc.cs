@@ -10,7 +10,9 @@ public class MovementSc : MonoBehaviour
     public bool canPress = true;
     public float timePlusCooldown = 0;
     public float cooldown = 5;
-    public GameObject pause;
+    public static bool GameIsPaused = false;
+
+    public GameObject pauseMenuUI;
     public GameObject quitButton;
     public GameObject resume;
 
@@ -28,12 +30,31 @@ public class MovementSc : MonoBehaviour
         Vector3 playermovement = new Vector3(Hor, 0f, Ver) * speed * Time.deltaTime;
         transform.Translate(playermovement, Space.Self);
 
-        if(Input.GetKey(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.P))
         {
-            pause.SetActive(true);
-            quitButton.SetActive(true);
-            resume.SetActive(true);
-        }
+            if(GameIsPaused)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
+        } 
+    }
+
+    void Resume()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        GameIsPaused = false;
+    }
+
+    void Pause()
+    {
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        GameIsPaused = true;
     }
    
 }

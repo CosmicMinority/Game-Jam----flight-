@@ -12,11 +12,12 @@ public class OriginalFuelSC : MonoBehaviour
     private bool stopTimer;
 
     public GameObject FueldepletedText;
+    public GameObject menuButton;
+    public GameObject retryButton;
 
     // Start is called before the first frame update
     void Start()
     {
-        FueldepletedText.SetActive(false);
         OXbar.maxValue = gameTime;
         OXbar.value = gameTime;
     }
@@ -35,6 +36,8 @@ public class OriginalFuelSC : MonoBehaviour
         {
             stopTimer = true;
             FueldepletedText.SetActive(true);
+            menuButton.SetActive(true);
+            retryButton.SetActive(true);
         }
 
         if (stopTimer == false)
@@ -42,6 +45,13 @@ public class OriginalFuelSC : MonoBehaviour
             timerText.text = textTime;
             OXbar.value = time;
         }
+    }
+
+    void FixedUpdate()
+    {
+        FueldepletedText.SetActive(false);
+        menuButton.SetActive(false);
+        retryButton.SetActive(false);
     }
 
 }

@@ -1,17 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Points : MonoBehaviour 
 {
-    OriginalFuelSC originalFuel;
+    //OriginalFuelSC originalFuel;
     public Slider OXbar;
     public float gameTime;
-
+   
     // Start is called before the first frame update
     void Start()
     {
-        
+         
     }
 
     // Update is called once per frame
@@ -20,11 +21,11 @@ public class Points : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collider collision)
+    /*void OnCollisionEnter(Collider collision)
     {
-        if(col.gameObject.tag == "Player")
+        if(collision.gameObject.tag == "Player")
         {
-            originalFuelSC.OXbar += 30f; 
+           //originalFuel.OXbar += 30f; 
         }
-    }
+    }*/
 }
